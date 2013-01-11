@@ -66,6 +66,7 @@
                     </div>
                     </li>
                     <li>4YDP Supervised</li>
+                    <li><a target="_blank" rel="nofollow" href="LaTeX-examples/LaTeX-examples.html">How to write research articles using LaTeX</a></li>
                 </ul>
             </div>
 
@@ -104,11 +105,25 @@
             <div class="row pagination-right muted">
                 <hr />
                 Guang Gong's Home Page, University of Waterloo<br />
-                All Rights Reserved &copy; 2001 - 2013
+                All Rights Reserved &copy; 2001 - 2013<br />
+                Last Update: <span id="last_update_date">...</span>
             </div>
 
             <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
             <script type="text/javascript" src="js/bootstrap-2.2.2.min.js"></script>
+            <script>
+                function display_last_update_date(resp) {
+                    var last_update_date= resp.data.updated_at;
+                    $('#last_update_date').html(last_update_date.substring(0, 10));
+                }
+                $(document).ready(function() {
+                    var github = document.createElement('script');
+                    github.type = 'text/javascript';
+                    github.async = true;
+                    github.src = 'https://api.github.com/repos/ComSec/ggong?callback=display_last_update_date';
+                    $('body')[0].appendChild(github);
+                });
+            </script>
         </div>
     </body>
 </html>

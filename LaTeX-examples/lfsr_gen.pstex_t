@@ -1,0 +1,31 @@
+\begin{picture}(0,0)%
+\includegraphics{lfsr_gen.pstex}%
+\end{picture}%
+\setlength{\unitlength}{2684sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(9088,6474)(601,-7123)
+\put(3076,-1111){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LFSR 0: $g_0$}%
+}}}}
+\put(3151,-2086){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LFSR 1: $g_1$}%
+}}}}
+\put(3151,-4861){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LFSR $\rho$: $g_{\rho}$}%
+}}}}
+\put(3151,-6736){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LFSR $l$: $g_l$}%
+}}}}
+\put(7726,-3586){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$s_t ^{k}$}%
+}}}}
+\put(7351,-4861){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}of LFSR $j$ is set as zero.}%
+}}}}
+\put(7351,-4636){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}If $i_j=2^n-1$, then the initial state}%
+}}}}
+\put(7351,-4411){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$k=\sum_{j=0} ^{\rho-1} i_j 2^{nj},\  0\leq i_j \leq 2^n-1$.}%
+}}}}
+\put(2926,-3886){\makebox(0,0)[lb]{\smash{{\SetFigFont{7}{8.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LFSR ($\rho-1$): $g_{\rho-1}$}%
+}}}}
+\end{picture}%
