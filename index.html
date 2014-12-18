@@ -1,129 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <title>Prof. Guang Gong's Home Page</title>
-        <link rel="stylesheet" type="text/css" href="css/cerulean-bootstrap-2.1.1.min.css" />
-        <style>
-            #name {
-                font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial, Sans-serif;;
-            }
-        </style>
-        <meta name="keywords" content="Guang Gong, Sequences, Cryptography, Security" />
+        <title>Prof. Guang Gong - ComSec Lab - University of Waterloo</title>
+	<meta name="keywords" content="Guang Gong, Sequences, Cryptography, Security, ComSec, Communications Security, University of Waterloo" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-        <div class="container">
-            <div class="row pagination-centered">
-                <h1>Welcome to Prof. <span id="name">Guang Gong</span>'s Home Page.</h1>
-
-                <div class="lead">My research interests are in the areas of sequences, cryptography and network security.</div>
-
-                <hr />
-            </div>
-
-            <div class="row">
-                <h2>Contact</h2>
-                <div class="span12">
-                    <dl>
-                        <dt>Address</dt><dd><a target="_blank" href="http://ece.uwaterloo.ca">Department of Electrical and Computer Engineering</a>, <a target="_blank" href="http://uwaterloo.ca">University of Waterloo</a>, Waterloo, Ontario, N2L3G1, Canada</dd>
-                        <dt>Office</dt><dd>EIT 4158</dd>
-                        <dt>Phone</dt><dd>(519) 888-4567 x 35650</dd>
-                        <dt>Fax</dt><dd>(519) 746-3077</dd>
-                        <dt>Email</dt><dd><img src="img/ggong_email_address.png" alt=""/></dd>
-                    </dl>
+        <div class="container" id="wrapper">
+            <div id="header">
+                <div id="uw-header">
+                    <div id="uw-logo">
+                        <a rel="nofollow" href="http://uwaterloo.ca/" target="_blank">
+                            <img alt="University of Waterloo" src="img/uwlogo.png">
+                        </a>
+                    </div>
+                    <div id="uw-search">
+                        <form action="http://uwaterloo.ca/search/" method="get" title="search">
+                            <div>
+                                <label>Search</label>
+                                <input type="text" name="searchterm" id="uw-search-text" />
+                                <input type="image" src="img/search_arrow.png" alt="Submit" id="uw-search-submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="comsec-header">
+                    <a rel="home" title="ComSec Home" href="index.html">
+                        <img alt="ComSec" src="img/comsec.png" />
+                    </a>
                 </div>
             </div>
+            <div id="main" class="row">
+                <div id="content" class="span9">
+		  <div id="content-wrapper">
+		    <h2>Prof. Guang Gong</h2>
+                    <ul class="plain">
+                        <li><b>Email</b>: <img src="img/ggong_email_address.png" alt=""/></li>
+			<li><b>Phone</b>: (519) 888-4567 x 35650</li>
+                        <li><b>Fax</b>: (519) 746-3077</li>
+                        <li><b>Office</b>: EIT 4158</li>
+                    </ul>
+		    <h3>Research Interest</h3>
+		    <ul class="plain">
+		      <li>Sequences, cryptography and network security</li>
+		    </ul>
+		    <h3>Teaching</h3>
+		    <ul class="plain">
+		      <li><h4>Winter 2015</h4>
+			<ul>
+			  <li><i>ECE 409 Cryptography and System Security</i> <a href="download/syllabus409-2015W.pdf">[Syllabus]</a></li>
+			  <li><i>ECE 628 Computer Network Security</i> <a href="download/syllabus628-2015W.pdf">[Syllabus]</a></li>
+			</ul>
+		      </li>
+		      <li><h4><a data-toggle="collapse" data-target="#other_courses">Other courses</a></h4>
+			<div id="other_courses" class="collapse">
+			  <ul>
+			    <li><i>ECE 316 Probability Theory and Random Processes</i>: Winter 2001, Spring 2001, Winter 2002</li>
+			    <li><i>ECE 318 Analog and Digital Communications</i>: Winter 2013, Fall 2007, Fall 2005, Fall 2004</li>
+			    <li><i>ECE 411 Digital Communications</i>: Spring 2012, Spring 2009, Spring 2008, Spring 2006, Spring 2005, Spring 2003, Spring 2002</li>
+			    <li><i>ECE 419 Communication System Security</i>: Spring 2012</li>
+			    <li><i>ECE 493 Topic 10 Communication Systems Security</i>: Winter 2009</li>
+			    <li><i>ECE 710 Topic 4 Sequence Design and Cryptography</i>: Winter 2012, Spring 2009, Spring 2008, Fall 2005, Fall 2004, Fall 2003, Winter 2003, Spring 2002</li>
+			    <li><i>ECE 710 Topic 21 Communication Security</i>: Spring 2013</li>
+			    <li><i>ECE 716</i>: Spring 2001</li>
+			    <li><i>EE 599 Signal Design with Good Correlation</i>: Co-instructor with Professor Solomon Golomb at USC, Spring 2007</li>
+			    <li><i>Short Course on Design of Pseudo-random Sequence Generators</i>: at Ruhr-Universitaet Bochum, Germany. Lecture 1 (Dec. 10, 2002), Lecture 2 (Dec. 17, 2002)</li>
+			    <li><i>C&amp;O 739x Sequence Analysis</i>, Winter 1999, Lecture Notes on Sequence Design (C&amp;O 739x, 1999)</li>
+			  </ul>
+			</div>
+		      </li>
+		      <li><i>4YDP Supervised</i></li>
+		      <li><i><a data-toggle="collapse" data-target="#latex_example">How to write research articles using LaTeX</a></i>
+			<div id="latex_example" class="collapse section">
+			  <p>The first file is a LaTeX format for writing research papers. I have indicated how to change width of pages in the LaTeX file and attached two PDF files: one is a wide style and the other is narrow.</p>
+			  <ul class="plain">
+			    <li><a target="_blank" href="LaTeX-examples/format07.tex">format07.tex</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/format07-narrow.pdf">format07-narrow.pdf</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/format07-widestyle.pdf">format07-widestyle.pdf</a></li>
+			  </ul>
+			  <p>The second file is to show how to insert figures, for which the two figures are drawn by xfig. You need to download the following files.</p>
+			  <ul class="plain">
+			    <li><a target="_blank" href="LaTeX-examples/format-fig.tex">format-fig.tex</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/format-fig.pdf">format-fig.pdf</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/lfsr.fig">lfsr.fig</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/lfsr.pstex">lfsr.pstex</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/lfsr.pstex_t">lfsr.pstex_t</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/lfsr_gen.fig">lfsr_gen.fig</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/lfsr_gen.pstex">lfsr_gen.pstex</a></li>
+			    <li><a target="_blank" href="LaTeX-examples/lfsr_gen.pstex_t">lfsr_gen.pstex_t</a></li>
+			  </ul> 			  
+			</div>
+		      </li>
+		    </ul>
 
-            <div class="row">
-                <h2>Teaching</h2>
-                <ul>
-                    <li>Spring 2013
-                    <ul>
-                        <li><a target="_blank" href="courses/ece710t21s13.html">ECE 710 Topic 21 Communication Security</a></li>
-                    </ul>
-                    </li>
-                    <li>Winter 2013
-                    <ul>
-                        <li><a target="_blank" href="courses/ece318w13.html">ECE 318 Analog and Digital Communications</a></li>
-                    </ul>
-                    </li>
-                    <li>Fall 2013 - Spring 2014: Sabbatical</li>
-                    <li><a data-toggle="collapse" data-target="#other_courses">Other Courses</a></li>
-                    <li>
-                    <div id="other_courses" class="collapse">
-                        <ul>
-                            <li>ECE 419 Communication System Security: Spring 2012</li>
-                            <li>ECE 318: Fall 2007, Fall 2005, Fall 2004.</li>
-                            <li>ECE 411: Spring 2012, Spring 2009, Spring 2008, Spring 2006, Spring 2005, Spring 2003, Spring 2002.</li>
-                            <li>ECE 493 Topic 10 Communication Systems Security: Winter 2009.</li>
-                            <li>ECE 316: Winter 2001, Spring 2001, Winter 2002.</li>
-                            <li>ECE 710 Topic 4 Sequence Design and Cryptography: Winter 2012, Spring 2009, Spring 2008, Fall 2005, Fall 2004, Fall 2003, Winter 2003, Spring 2002.</li>
-                            <li>ECE 716: Spring 2001.</li>
-                            <li>EE 599 Signal Design with Good Correlation: Co-instructor with Professor Solomon Golomb at USC, Spring 2007.</li>
-                            <li>Short Course on Design of Pseudo-random Sequence Generators at Ruhr-Universitaet Bochum, Germany Lecture 1 (Dec. 10, 2002), Lecture 2 (Dec. 17, 2002).</li>
-                            <li>C&amp;O 739x, Sequence Analysis, Winter 1999, Lecture Notes on Sequence Design (C&amp;O 739x, 1999).</li>
+		    <h3>Research</h3>
+		    <ul class="plain">
+		      <li><a target="_blank" href="http://comsec.uwaterloo.ca/publications.html">Publications</a></li>
+		      <li><a target="_blank" href="http://comsec.uwaterloo.ca/projects.html">Projects</a></li>
+		      <li>Book: <a target="_blank" href="GolombGongBook/GolombGongBook.html"><i>Signal Design with Good Correlation -- for Wireless Communication, Cryptography and Radar</i></a>, Cambridge University Press, 2005</li>
+		      <li>Book: <a target="_blank" href="http://www.crcpress.com/product/isbn/9781439840368"><i>Communication System Security</i></a>, CRC Press, 2012</li>
+		    </ul>
+
+		    <h3>Academic Activities</h3>
+		    <ul class="plain">
+		      <li><a target="_blank" href="http://comsec.uwaterloo.ca/members.html">Research Team</a></li>
+		      <li><a data-toggle="collapse" data-target="#committee">Professional Services</a>
+			<div id="committee" class="collapse">
+			  <ul class="plain">
+			    <li><h4>Organizer of Technical Conferences</h4>
+			      <ul>
+				<li>General chair of International Conference on SEquences and Their Applications (SETA 2012), June 4-8, 2012, University of Waterloo, Waterloo, Canada</li>
+				<li>Program co-chair of the 11th International Conference on Cryptology in India (Indocrypt 2010), December 13-15, Hyderabad, India</li>
+				<li>Program co-chair of The Workshop on Selected Areas in Cryptography (SAC) 2010, August 12-13, 2010, University of Waterloo, Ontario, Canada</li>
+				<li>Co-organizers of the Workshop on Sequences, Subsequences and Consequences, May 31-June 2, 2007, University of Southern California, Los Angeles, California, USA</li>
+				<li>Program co-chair of the International Conference of Sequences and their Applications 2006 (SETA'06), September 24-28, 2006 Beijing, China</li>
+			      </ul>
+			    </li>
+			    <li><h4>Technical Program Committee Member</h4>
+			      <ul>
+				<li>The International Conference of SEquences and their Applications (SETA), SETA 2012 (June 4-8, 2012, University of Waterloo, Waterloo, Canada), SETA 2010 (Sept. 12-17, 2010, Telecom ParisTech, Paris, France), SETA 2008 (Sept. 14-18, 2008, Lexington, KY, USA), SETA 2006 (Sep. 24-28, 2006 Beijing, China), SETA 2004 (Oct. 25 - 29, 2004, Seoul, South Korea); SETA 2001 (May 13 - 17, 2001, Bergen, Norway)</li>
+				<li>Conference on Selected Areas of Cryptography (SAC), SAC 2012 (August 16-17, 2012, Windsor, Ontario, Canada), SAC 2011(August 11-12, 2011, Ryerson University, Toronto, Ontario, Canada), SAC 2010 (August 12-13, 2010, University of Waterloo, Ontario, Canada), SAC 2005 (August 11-12, 2005, Queen's University, Kingston, Ontario, Canada), SAC 2002 (August 15-16, 2002, St. John's, Newfoundland, Canada)</li>
+				<li>The 7th International Workshop on Coding and Cryptography (WCC), WCC 2011 (April 11-15, 2011, Paris, France), WCC 2009 (May 10 -15, 2009, Ullensvang, Norway), WCC 2007 (April 16-20, 2007, Versailles, France), WCC 2005 (March 14-18, 2005, Bergen, Norway), WCC 2003 (March 24-28, 2003, Versailles, France)</li>
+				<li>International Workshop on the Arithmetic of Finite Fields (WAIFI), WAIFI 2012 (July 16-19, 2012, Bochum, Germany), WAIFI 2010 (June 27-30, 2010, Istanbul, Turkey), WAIFI 2007 (June 21-22, 2007, Madrid, Spain)</li>
+				<li>The 19th International Workshop on Fast Software Encryption (FSE 2012), March 19-21, 2012, Washington DC, USA</li>
+				<li>IEEE Global Communications Conference, Exhibition and Industry Forum (GLOBECOM 2012) - Communications and Information System Security Symposium (CISS), GLOBECOM-CISS 2012 (Dec. 3-7, 2012, Anaheim, CA, USA), GLOBECOM-CISS 2010 (Dec. 6-10, 2010, Miami, USA)</li>
+				<li>IEEE International Conference on Communications (ICC 2012) - Communication and Information Systems Security Symposium, June 10-15, 2012, Ottawa, Canada</li>
+				<li>IEEE International Symposium on Information Theory (ISIT 2012), July 1-6, 2012, Cambridge, MA, USA</li>
+				<li>The 7th LCN Workshop on Security in Communications Networks(SICK), held in conjunction with IEEE LCN 2012, October 22-25, 2012, Clearwater, Florida, USA</li>
+				<li>Third International ICST Conference on Ad Hoc Networks (ADHOCNETS), ADHOCNETS 2011 (Sept. 21-23, 2011, Paris, France, ADHOCNETS 2010 (August 18-20, 2010, Victoria, British Columbia, Canada)</li>
+				<li>The 14th Information Security Conference (ISC 2011), October 26-28, Xi'an, China</li>
+				<li>The 10th International Conference on Cryptology in India (Indocrypt), Indocrypt 2009, December 13 - 16, 2009, New Delhi, India</li>
+				<li>IEEE Wireless Communications and Networking Conference (WCNC), WCNC 2009 (April 5-7, 2009, Budapest, Hungary), WCNC 2008 (March 31- April 3, 2008, Las Vegas, Nevada, USA)</li>
+				<li>The 18th Applied Algebra, Algebraic Algorithms, and Error-Correcting Codes Symposium (AAECC), AAECC-18 (June 8 -12, 2009, Tarragona, Catalonia, Spain), AAECC-17 (Dec. 16-20, 2007, Indian Institute of Science, Bangalore, India)</li>
+				<li>The 5th Information Security Practice and Experience Conference (ISPEC), ISPEC 2009 (April 13-15, 2009, Xian, China), ISPEC 2008 (April 21-23, 2008, Sydney, Australia)</li>
+				<li>The 4th International Conference on Information Security and Cryptology (Inscrypt 2008), December 14 - 17, 2008, Beijing, China</li>
+				<li>The 11th Annual International Conference on Information Security and Cryptology, December 3-5, 2008, Seoul, Korea</li>
+				<li>Third International Workshop on Signal Design and Its Applications in Communications, September 23 -27, 2007, Chengdu, China</li>
+				<li>2007 IEEE Information Theory Workshop on Information Theory for Wireless Networks, July 1- 6, 2007, Bergen, Norway</li>
+				<li>The 2nd International Workshop on Security in Ubiquitous Computing Systems (SECUBIQ)'06, August 1-4, 2006, Seoul Korea</li>
+				<li>Asiacrypt'06, Shanghai, December 3-7, 2006, Shanghai, China</li>
+				<li>The 2nd Information Security Practice and Experience Conference (ISPEC 2006), April 11-14, 2006, Hangzhou, China</li>
+				<li>The 6th International Conference on Cryptology in India, December 10-12, 2005, Indian Institute of Science, Bangalore, India</li>
+				<li>SKLOIS Conference on Information Security and Cryptology (CICS 05), December 15-17, Beijing, China</li>
+				<li>The Annual International Workshop on Cryptology and Network Security (CNS): CNS 2001, September 26-28, 2001, Taipei, Taiwan; CNS 2002, September 26-28, 2002, San Francisco, California, USA; CNS 2003, September 24-26, 2003, Miami, Florida, USA</li>
+			      </ul>
+			    </li>
+			  </ul>
+			</div>
+		      </li>
+		      <li><a data-toggle="collapse" data-target="#editorship">Editorship</a>
+			<div id="editorship" class="collapse">
+			  <ul>
+			    <li>Associate Editor for Sequences for IEEE Transactions on Information Theory (Dec. 2005 - Dec. 2008)</li>
+			    <li>Associate Editor for for Journal of Cryptography and Communications: Discrete Structures, Boolean Functions and Sequences (2007-)</li>
+			    <li>Area Editor for Information Security for for Journal of Computer Science and Technology (2007-2010)</li>
+			    <li>Guest editor for Special Issue on Cryptography in Networks, International Journal of Security and Networks (IJSN), 2006.</li>
+			    <li>Guest editor for for a special issue on Innovative Signal Transmission and Detection Techniques for Next Generation Cellular DS-CDMA System in EURASIP Journal on Wireless Communications and Networking, 2003.</li>
+			  </ul>
+			</div>
+		      </li>
+		      <li><a data-toggle="collapse" data-target="#cv">A Brief Biography</a>
+			<div id="cv" class="collapse">
+			  <ul class="plain">
+			    <li><h4>Education</h4>
+			      <ul>
+				<li>Ph.D., Electrical Engineering, September 1987 - July 1990, the Institute of Information Systems, University of Electronic Science and Technology of China (UESTC), Chengdu, China</li>
+				<li>M.S., Applied Mathematics, August 1982 - April 1985, the Institute of Information Security, Northwest Telecommunication Engineering Institute (renamed as Xi Dian University in 1989), Xian, China</li>
+				<li>B.S., Mathematics, May 1978 - January 1981, Department of Mathematics, Xichang Normal College, Xichang, China</li>
+			      </ul>
+			    </li>
+			    <li><h4>Affiliations and Positions</h4>
+			      <ul>
+				<li>Since July 2004, Professor, Department of Electrical and Computer Engineering, University of Waterloo, Waterloo, Canada</li>
+				<li>September 2006 – August 2007: sabbatical leave, visiting the State Key Lab of Information Security at Chinese Academy of Sciences, UESTC, and Shanghai Jiao Tong University (China, Sep. - Dec. 2006), University of Southern California (hosted by Dr. S.W. Golomb, USA, Jan. - May 2007), INRIA (hosted by Dr. P. Charpin, France, June - July 2007)</li>
+				<li>September 2000 – June 2004: Associate Professor, Department of Electrical and Computer Engineering, cross appointed to the Department of Combinatorics and Optimization, the Center of Applied Cryptographic Research, University of Waterloo, Waterloo, Canada</li>
+				<li>November - December 2002: visiting Communication Security Lab, Dept. of Electrical Engineering and Information Sciences, Ruhr-Universitaet Bochum, 44780 Bochum, Germany (hosted by C. Paar and H. Dobbertin)</li>
+				<li>January 1999 - August 2000: Research Assistant Professor, the Center of Applied Cryptographic Research, Department of Combinatorics &Optimization, University of Waterloo, Waterloo, Canada</li>
+				<li>July 1998 - December 1998: Postdoc Visitor, the Center of Applied Cryptographic Research, Department of Combinatorics & Optimization, University of Waterloo, Waterloo, Canada</li>
+				<li>June 1996 - June 1998: Research Associate, the Communication Sciences Institute, Electrical Engineering Department, University of Southern California, Los Angeles, USA</li>
+				<li>May 1995 - June 1996: Visiting Associate Professor, Computer Networking Department, University of Missouri-Kansas City, Kansas City, USA</li>
+				<li>January 1993 - May 1995: Associate Professor, the Institute of Information Systems and the Department of Applied Mathematics, University of Electronic Science and Technology of China, Chengdu, China</li>
+				<li>October 1991 - October 1992: Postdoctoral Fellow, the Cryptography Research Group, Digital Communication Section, Fondazione Ugo Bordoni (FUB), Rome, Italy</li>
+				<li>May 1987 - January 1993 (except October 1991 - October 1992): Instructor, the Institute of Information Systems and the Department of Applied Mathematics, University of Electronic Science and Technology of China, Chengdu, China</li>
+				<li>May 1985 - May 1987: Teaching Assistant, the Department of Applied Mathematics, University of Electronic Science and Technology of China, Chengdu, China</li>
+			      </ul>
+			    </li>
+			    <li><h4>Honors and Awards</h4>
+			      <ul>
+				<li>The Premier's Research Excellence Awards, Ontario, Canada, 2001</li>
+				<li>Distinguished Professorship Award of the National Education Commission, China, 1994</li>
+				<li>Fondazione Ugo Bordoni Postdoctoral Fellowship, Italy, 1991</li>
+				<li>Outstanding Doctorate Faculty Award of Sichuan Province, China, 1991</li>
+				<li>Best Research Paper Award of the Chinese Institute of Electronics, China, 1984</li>
+			      </ul>
+			    </li>
+			  </ul>
+			</div>
+		      </li>
+		    </ul>
+		  </div>
+		</div>
+
+		<div id="sidebar" class="span3">
+		  <div id="sidebar-wrapper">
+                    <ul class="nav nav-list">
+                            <li class="nav-header">Navigation</li>
+                            <li><a href="http://comsec.uwaterloo.ca/index.html">Home</a></li>
+                            <li><a class="active" href="http://comsec.uwaterloo.ca/members.html">Members</a></li>
+                            <li><a href="http://comsec.uwaterloo.ca/openings.html">Openings</a></li>
+                            <li><a href="http://comsec.uwaterloo.ca/seminars.html">Seminars</a></li>
+                            <li><a href="http://comsec.uwaterloo.ca/projects.html">Projects</a></li>
+                            <li><a href="http://comsec.uwaterloo.ca/publications.html">Publications</a></li>
+                            <li><a href="http://comsec.uwaterloo.ca/equipments.html">Lab Equipments</a></li>
+                            <li><a href="http://comsec.uwaterloo.ca/sponsors.html">Research Sponsors</a></li>
+                        </ul>
+
+			<ul class="nav nav-list" id="sub-nav">
+                            <li class="nav-header">Homepages</li>
+                            <li><a rel="nofollow" href="http://comsec.uwaterloo.ca/~ggong/">Prof. Guang Gong</a></li>
                         </ul>
                     </div>
-                    </li>
-                    <li>4YDP Supervised</li>
-                    <li><a target="_blank" rel="nofollow" href="LaTeX-examples/LaTeX-examples.html">How to write research articles using LaTeX</a></li>
-                </ul>
+                </div>
             </div>
-
-            <div class="row">
-                <h2>Research</h2>
-                <ul>
-                    <li><a target="_blank" href="http://comsec.uwaterloo.ca">Communications Security Lab</a></li>
-                    <li><a target="_blank" href="http://comsec.uwaterloo.ca/publications.html">Research Interests and Publications</a></li>
-                    <li><a target="_blank" href="GH-PKS/GH-PKS.html">New Public-key Cryptosystem</a></li>
-                    <li>Book: <a target="_blank" href="GolombGongBook/GolombGongBook.html">Signal Design with Good Correlation -- for Wireless Communication, Cryptography and Radar</a>, Cambridge University Press, 2005</li>
-                    <li>Book: <a target="_blank" href="http://www.crcpress.com/product/isbn/9781439840368">Communication System Security</a>, CRC Press, 2012</li>
-                </ul>
+            <div id="footer">
+                <div id="watermark"></div>
+                Communications Security Lab, EIT-4132, Department of Electrical and Computer Engineering, University of Waterloo<br />
+                Waterloo, Ontario, N2L 3G1, Canada<br />
+                (519) 888-4567 x 32140<br />
+                &copy; 2001 - 2013 All Rights Reserved
             </div>
-
-            <div class="row">
-                <h2>Academic Activities</h2>
-                <ul>
-                    <li><a target="_blank" href="http://comsec.uwaterloo.ca/members.html">Research Team</a></li>
-                    <li><a target="_blank" href="professional.html">Conference Organizers and Committees</a></li>
-                    <li><a data-toggle="collapse" data-target="#editorship">Editorship</a></li>
-                    <li>
-                    <div id="editorship" class="collapse">
-                        <ul>
-                            <li>Associate Editor for Sequences for IEEE Transactions on Information Theory (Dec. 2005 - Dec. 2008)</li>
-                            <li>Associate Editor for for Journal of Cryptography and Communications: Discrete Structures, Boolean Functions and Sequences (2007-)</li>
-                            <li>Area Editor for Information Security for for Journal of Computer Science and Technology (2007-2010)</li>
-                            <li>Guest editor for Special Issue on Cryptography in Networks, International Journal of Security and Networks (IJSN), 2006.</li>
-                            <li>Guest editor for for a special issue on Innovative Signal Transmission and Detection Techniques for Next Generation Cellular DS-CDMA System in EURASIP Journal on Wireless Communications and Networking, 2003.</li>
-                        </ul>
-                    </div>
-                    </li>
-                    <li><a target="_blank" href="CV.html">A Brief Biography</a></li>
-                </ul>
-            </div>
-
-            <div class="row pagination-right muted">
-                <hr />
-                Guang Gong's Home Page, University of Waterloo<br />
-                All Rights Reserved &copy; 2001 - 2013<br />
-                Last Update: <span id="last_update_date">...</span>
-            </div>
-
-            <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-            <script type="text/javascript" src="js/bootstrap-2.2.2.min.js"></script>
-            <script>
-                function display_last_update_date(resp) {
-                    var last_update_date= resp.data.updated_at;
-                    $('#last_update_date').html(last_update_date.substring(0, 10));
-                }
-                $(document).ready(function() {
-                    var github = document.createElement('script');
-                    github.type = 'text/javascript';
-                    github.async = true;
-                    github.src = 'https://api.github.com/repos/ComSec/ggong?callback=display_last_update_date';
-                    $('body')[0].appendChild(github);
-                });
-            </script>
         </div>
+
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-2.2.2.min.js"></script>	
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-21169915-2']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
     </body>
 </html>
